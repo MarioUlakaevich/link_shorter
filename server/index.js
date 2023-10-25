@@ -3,7 +3,7 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 const cors = require('cors')
 const cron = require('node-cron')
-const Link = require('../models/Link')
+const Link = require('./models/Link')
 const client = require('./routes/redirect.routes')
 
 const app = express()
